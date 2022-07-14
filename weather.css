@@ -1,0 +1,28 @@
+/* --------------------*/
+/* -----table----------*/
+/* --------------------*/
+/*--------------/
+/*----table----*/
+.table {
+  display: table;
+  border-spacing: 20px;
+}
+
+.row {display: table-row;}
+.row > div {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 10px;
+}
+
+.row > div:first-child {
+  text-align: right;
+}
+
+h3 > a:hover{
+background-color: silver;
+
+}
+figure {
+  margin: 0;
+}
